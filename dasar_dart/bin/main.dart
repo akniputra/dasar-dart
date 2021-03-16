@@ -1,3 +1,7 @@
+import 'dart:io';
+
 main(List<String> arguments) {
-  print('Hello world');
+  String input = stdin.readLineSync();
+  double number = double.tryParse(input);
+  print(number + 10);
 }
