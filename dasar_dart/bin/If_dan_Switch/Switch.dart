@@ -1,6 +1,6 @@
 import 'dart:io';
 
-void main(List<String> arguments) {
+main(List<String> arguments) {
   int number = int.tryParse(stdin.readLineSync());
 
   switch (number) {
@@ -15,6 +15,6 @@ void main(List<String> arguments) {
       print("dua");
       break;
     default:
-      print("bilangan lain" )
-
+      print("bilangan lain");
+  }
 }
